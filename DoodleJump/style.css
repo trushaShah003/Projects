@@ -1,0 +1,46 @@
+.grid {
+  width: 400px;
+  height: 600px;
+  /* background-color: bisque; */
+  background-image: url("background.png");
+  position: relative;
+  font-size: 100px;
+  text-align: center;
+}
+
+.doodler {
+  width: 87px;
+  height: 85px;
+  /* background-color: brown; */
+
+  background-image: url("doodler-guy.png");
+  position: absolute;
+}
+
+.platform {
+  width: 85px;
+  height: 15px;
+  /* background-color: black; */
+  background-image: url("platform.png");
+  position: absolute;
+}
+
+.btn-start {
+  width: 400px;
+  padding: 16px;
+
+  background-color: rgb(67, 199, 58);
+  color: #333;
+  font-size: large;
+  font-weight: bold;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.132);
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
